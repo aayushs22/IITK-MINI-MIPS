@@ -1,9 +1,9 @@
-# IITK-MINI-MIPS
+### IITK‑MINI‑MIPS  
+*Course Project — CS220: Computer Architecture*  
+Supervisor: **Prof. Debapriya Basu Roy**, Department of CSE, IIT Kanpur  
 
-Course Project for CS220: Computer Architecture - under Prof. Debapriya Basu Roy, Dept. of CSE, IITK.
-
-• Designed a 32-bit single-cycle processor with custom instruction set using Verilog Hardware Description Language
-• Processor supports over 50 instructions: including branches, arithmetic, jumps, loads,stores and immediate types.
-• Implemented instruction encoding for R-, I-, and J-type formats, ALU, control FSM, and memory architecture.
-• Executed complete pipeline: fetch, decode, execute, branching; validated with MIPS-based Bubble Sort.
-• Made a Python- based assembler to convert the MIPS- style instructions to machine code.
+- **Designed** a 32‑bit single‑cycle processor with a custom instruction set using **Verilog HDL**.  
+- Supported **50 + instructions** covering branches, arithmetic, jumps, loads/stores, and immediate operations.  
+- Implemented instruction encoding for **R‑, I‑, and J‑type** formats, an **ALU**, control FSM, and memory architecture.  
+- Executed the full pipeline (fetch → decode → execute → branch) and validated functionality with a **MIPS‑based bubble‑sort** program.  
+- Developed a **Python‑based assembler** to translate MIPS‑style assembly into machine code.
